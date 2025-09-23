@@ -9,34 +9,34 @@ z2
 cModel Technology
 d/home/cgonzalezbriito
 Edecodbcd7seg
-Z0 w1758619135
+Z0 w1758623589
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 d/home/cgonzalezbriito/Workspace/DD1/P1
-Z4 8/home/cgonzalezbriito/Workspace/DD1/P1/hdl/decodBCD7seg.vhd
-Z5 F/home/cgonzalezbriito/Workspace/DD1/P1/hdl/decodBCD7seg.vhd
+Z3 d/home/cgonzalezbrito/Workspace/dd1/P1
+Z4 8/home/cgonzalezbrito/Workspace/dd1/P1/hdl/decodBCD7seg.vhd
+Z5 F/home/cgonzalezbrito/Workspace/dd1/P1/hdl/decodBCD7seg.vhd
 l0
 L10
 VAXghnlG=_Kz[d36M8=XUY0
 !s100 ?5AWL3^3zI2MYQQf2Sl000
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1758619140
+Z7 !s110 1758623769
 !i10b 1
-Z8 !s108 1758619140.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/P1/hdl/decodBCD7seg.vhd|
-Z10 !s107 /home/cgonzalezbriito/Workspace/DD1/P1/hdl/decodBCD7seg.vhd|
+Z8 !s108 1758623769.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P1/hdl/decodBCD7seg.vhd|
+Z10 !s107 /home/cgonzalezbrito/Workspace/dd1/P1/hdl/decodBCD7seg.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
-DEx4 work 12 decodbcd7seg 0 22 AXghnlG=_Kz[d36M8=XUY0
+Z13 DEx4 work 12 decodbcd7seg 0 22 AXghnlG=_Kz[d36M8=XUY0
 l18
 L17
-VTgV_AEWz7JbWXgQh3<gB]3
-!s100 =KIV7OzcoUI:_<0NjS?cb0
+Z14 VTgV_AEWz7JbWXgQh3<gB]3
+Z15 !s100 =KIV7OzcoUI:_<0NjS?cb0
 R6
 32
 R7

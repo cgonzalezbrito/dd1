@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/cgonzalezbriito
+Edecodbcd7seg
+Z0 w1758629019
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 d/home/cgonzalezbrito/Workspace/dd1/P2
+Z4 8/home/cgonzalezbrito/Workspace/dd1/P2/hdl/decodBCD7seg.vhd
+Z5 F/home/cgonzalezbrito/Workspace/dd1/P2/hdl/decodBCD7seg.vhd
+l0
+L10
+VAXghnlG=_Kz[d36M8=XUY0
+!s100 ?5AWL3^3zI2MYQQf2Sl000
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1758629023
+!i10b 1
+Z8 !s108 1758629023.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P2/hdl/decodBCD7seg.vhd|
+Z10 !s107 /home/cgonzalezbrito/Workspace/dd1/P2/hdl/decodBCD7seg.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+Z13 DEx4 work 12 decodbcd7seg 0 22 AXghnlG=_Kz[d36M8=XUY0
+l18
+L17
+Vmfo<b[M4YSRO<YeTIXDG[0
+!s100 B@70JBAoVN8KJHLjKV8>52
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_decodbcd7seg
+Z14 w1758629215
+R1
+R2
+R3
+Z15 8/home/cgonzalezbrito/Workspace/dd1/P2/test/tb_decodBCD7seg.vhd
+Z16 F/home/cgonzalezbrito/Workspace/dd1/P2/test/tb_decodBCD7seg.vhd
+l0
+L11
+Vgg9lNeJ@<>3e9GKDb2nGJ0
+!s100 R=CgNW`lmOUSa7S25?cg60
+R6
+32
+Z17 !s110 1758629219
+!i10b 1
+Z18 !s108 1758629218.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P2/test/tb_decodBCD7seg.vhd|
+Z20 !s107 /home/cgonzalezbrito/Workspace/dd1/P2/test/tb_decodBCD7seg.vhd|
+!i113 1
+R11
+R12
+Atest
+R13
+R1
+R2
+DEx4 work 15 tb_decodbcd7seg 0 22 gg9lNeJ@<>3e9GKDb2nGJ0
+l18
+L14
+VI84h?MRWVm]dIJH_bE>Z@0
+!s100 QR^150fC^l>>U6bE7=KPY3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12

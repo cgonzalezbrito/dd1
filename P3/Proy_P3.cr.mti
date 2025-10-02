@@ -1,0 +1,9 @@
+/home/cgonzalezbrito/Workspace/dd1/P3/hdl/reg16b_ena_rst.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/P3/hdl/reg16b_ena_rst.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg16b_ena_rst
+-- Compiling architecture rtl of reg16b_ena_rst
+
+} {} {}}

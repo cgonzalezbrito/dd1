@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/cgonzalezbrito/Workspace/dd1/A3
+Ediv_freq_4
+Z0 w1759403547
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 d/home/cgonzalezbrito/Workspace/dd1/P4
+Z6 8/home/cgonzalezbrito/Workspace/dd1/P4/div_freq_4.vhd
+Z7 F/home/cgonzalezbrito/Workspace/dd1/P4/div_freq_4.vhd
+l0
+L10
+V4;b7zVDCUd<gmL^Z83N681
+!s100 3ib9IZ=L@9EcOb6EL]_nn1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1759403551
+!i10b 1
+Z10 !s108 1759403551.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P4/div_freq_4.vhd|
+Z12 !s107 /home/cgonzalezbrito/Workspace/dd1/P4/div_freq_4.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+Z15 DEx4 work 10 div_freq_4 0 22 4;b7zVDCUd<gmL^Z83N681
+l20
+L18
+Vh<z_XC9jLJOzEdT__5I8g3
+!s100 mlJ;X<e0jC1W;7VCD>T0G1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ediv_freq_4_tb
+Z16 w1759405613
+R3
+R4
+R5
+Z17 8/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/div_freq_4_tb.vhd
+Z18 F/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/div_freq_4_tb.vhd
+l0
+L9
+VK1dz^leLnGM08nM]k3Ucj0
+!s100 CK5Y5VZV:z3bdUfcI7?de0
+R8
+32
+Z19 !s110 1759405618
+!i10b 1
+Z20 !s108 1759405618.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/div_freq_4_tb.vhd|
+Z22 !s107 /home/cgonzalezbrito/Workspace/dd1/P4/modelsim/div_freq_4_tb.vhd|
+!i113 1
+R13
+R14
+Atest
+R1
+R2
+R15
+R3
+R4
+DEx4 work 13 div_freq_4_tb 0 22 K1dz^leLnGM08nM]k3Ucj0
+l19
+L12
+Va3`EZ5[VTKm6<8j8aEeCL2
+!s100 W@BEi;z1X^m23W@ok_PZD2
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Eoper_reg
+Z23 w1759406963
+R1
+R2
+R3
+R4
+R5
+Z24 8/home/cgonzalezbrito/Workspace/dd1/P4/hdl/oper_reg.vhd
+Z25 F/home/cgonzalezbrito/Workspace/dd1/P4/hdl/oper_reg.vhd
+l0
+L9
+VboU^iEPzD8kHZbOg22_oJ3
+!s100 65h::Q9z7coFhM^aY3H1P1
+R8
+32
+Z26 !s110 1759407004
+!i10b 1
+Z27 !s108 1759407004.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P4/hdl/oper_reg.vhd|
+Z29 !s107 /home/cgonzalezbrito/Workspace/dd1/P4/hdl/oper_reg.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+Z30 DEx4 work 8 oper_reg 0 22 boU^iEPzD8kHZbOg22_oJ3
+l28
+L23
+VjNT3[5`K[z16=h^J5bbZb0
+!s100 312CYASI5lYIVXJEhXZfG0
+R8
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R13
+R14
+Eoper_reg_tb
+Z31 w1759407112
+R3
+R4
+R5
+Z32 8/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/oper_reg_tb.vhd
+Z33 F/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/oper_reg_tb.vhd
+l0
+L9
+VDm9HKNW8S@YczG=J2c3K03
+!s100 ^8OLS:a67M8j8e7VS2MPY3
+R8
+32
+Z34 !s110 1759407156
+!i10b 1
+Z35 !s108 1759407156.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P4/modelsim/oper_reg_tb.vhd|
+Z37 !s107 /home/cgonzalezbrito/Workspace/dd1/P4/modelsim/oper_reg_tb.vhd|
+!i113 1
+R13
+R14
+Atest
+R1
+R2
+R30
+R3
+R4
+DEx4 work 11 oper_reg_tb 0 22 Dm9HKNW8S@YczG=J2c3K03
+l24
+L12
+VR0<_OJ^IZkOmQg<<iD2lF3
+!s100 iiJC1c:ekQ0zGe<S>LlX?2
+R8
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R13
+R14

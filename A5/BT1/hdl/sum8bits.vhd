@@ -25,6 +25,8 @@ begin
     C_out <= S_aux(8);
     S <= S_aux(7 downto 0);
 
+	-- Esta linea es confusa. Cuando A = b'01111111' y B = b'000000001', entonces S = b'10000000'. Por lo que A(7) = B(7) y A(7) != S(7) 
+	-- Sin embargo no es un overflow
     OV <= '1' when (A(7) = B(7)) and (A(7) /= S(7))
 	else '0';
     

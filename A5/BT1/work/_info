@@ -8,26 +8,26 @@ z2
 !i10f 100
 cModel Technology
 d/home/cgonzalezbriito/Workspace/DD1/P1
-Esum4bits
-Z0 w1759762711
+Einc_3
+Z0 w1759831842
 Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z5 d/home/cgonzalezbriito/Workspace/DD1/A5/BT1
-Z6 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd
-Z7 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd
+Z6 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd
+Z7 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd
 l0
 L10
-V^ckPX`NzP4_jEgmW<UQCn1
-!s100 eSJN8?Xk1J@lSOcI=dc9e0
+VOcEcH9VC25IY8SQEZN8_=3
+!s100 e2fg8CBf=8UA8cE8EiXB>1
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1759762714
+Z9 !s110 1759832138
 !i10b 1
-Z10 !s108 1759762714.000000
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd|
-Z12 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd|
+Z10 !s108 1759832138.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd|
+Z12 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd|
 !i113 1
 Z13 o-work work -2002 -explicit
 Z14 tExplicit 1 CvgOpt 0
@@ -36,11 +36,11 @@ R1
 R2
 R3
 R4
-Z15 DEx4 work 8 sum4bits 0 22 ^ckPX`NzP4_jEgmW<UQCn1
-l19
-L18
-ViSMal`7n?VG>_7nAkg8<G3
-!s100 iBPJh[h]Qcf:dl`WXWDc13
+Z15 DEx4 work 5 inc_3 0 22 OcEcH9VC25IY8SQEZN8_=3
+l18
+L17
+V5;FAFYUUa;3im8m`iKHo=2
+!s100 m6zNi7ZCRCk9jZTD2zUMM2
 R8
 32
 R9
@@ -51,31 +51,118 @@ R12
 !i113 1
 R13
 R14
-Esum4bits_tb
-Z16 w1759762606
+Einc_3_tb
+Z16 w1759832362
 R1
 R2
 R3
 R4
 R5
-Z17 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd
-Z18 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd
+Z17 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/inc_3_tb.vhd
+Z18 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/inc_3_tb.vhd
+l0
+L10
+VZ7[HAOoed73IhA[0VokSb1
+!s100 Y<jc^AlMZI3VLgeh1<AA@2
+R8
+32
+Z19 !s110 1759832383
+!i10b 1
+Z20 !s108 1759832383.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/inc_3_tb.vhd|
+Z22 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/inc_3_tb.vhd|
+!i113 1
+R13
+R14
+Atest
+R15
+R1
+R2
+R3
+R4
+Z23 DEx4 work 8 inc_3_tb 0 22 Z7[HAOoed73IhA[0VokSb1
+l17
+L13
+VCGnUVLBX1DlE8E`?=MWX31
+!s100 KB8Foa<3_HbA>FO6]`@382
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R13
+R14
+Esum4bits
+Z24 w1759762711
+R1
+R2
+R3
+R4
+R5
+Z25 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd
+Z26 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd
+l0
+L10
+V^ckPX`NzP4_jEgmW<UQCn1
+!s100 eSJN8?Xk1J@lSOcI=dc9e0
+R8
+32
+Z27 !s110 1759762714
+!i10b 1
+Z28 !s108 1759762714.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd|
+Z30 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd|
+!i113 1
+R13
+R14
+Artl
+R1
+R2
+R3
+R4
+Z31 DEx4 work 8 sum4bits 0 22 ^ckPX`NzP4_jEgmW<UQCn1
+l19
+L18
+ViSMal`7n?VG>_7nAkg8<G3
+!s100 iBPJh[h]Qcf:dl`WXWDc13
+R8
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Esum4bits_tb
+Z32 w1759762606
+R1
+R2
+R3
+R4
+R5
+Z33 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd
+Z34 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd
 l0
 L10
 VI50LzXTWiFe7eZSU52hdi0
 !s100 @5X^dc[jCll@hdLMj5]WL0
 R8
 32
-Z19 !s110 1759762775
+Z35 !s110 1759762775
 !i10b 1
-Z20 !s108 1759762775.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd|
-Z22 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd|
+Z36 !s108 1759762775.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd|
+Z38 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum4bits_tb.vhd|
 !i113 1
 R13
 R14
 Atest
-R15
+R31
 R1
 R2
 R3
@@ -87,34 +174,34 @@ VAF;maIP[g=E^PJH2_Kz<V1
 !s100 f3D[9BJ1e0i7SALnA?dda1
 R8
 32
-R19
+R35
 !i10b 1
-R20
-R21
-R22
+R36
+R37
+R38
 !i113 1
 R13
 R14
 Esum8bits
-Z23 w1759764980
+Z39 w1759764980
 R1
 R2
 R3
 R4
 R5
-Z24 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd
-Z25 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd
+Z40 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd
+Z41 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd
 l0
 L10
 VX[L8;No9j9Ba5N280jMT^1
 !s100 U[Uh1d6IWd07Ze;=zefUh0
 R8
 32
-Z26 !s110 1759765017
+Z42 !s110 1759765017
 !i10b 1
-Z27 !s108 1759765017.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd|
-Z29 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd|
+Z43 !s108 1759765017.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd|
+Z45 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum8bits.vhd|
 !i113 1
 R13
 R14
@@ -123,18 +210,62 @@ R1
 R2
 R3
 R4
-DEx4 work 8 sum8bits 0 22 X[L8;No9j9Ba5N280jMT^1
+Z46 DEx4 work 8 sum8bits 0 22 X[L8;No9j9Ba5N280jMT^1
 l23
 L21
 VH0BO5cjI>JRMC2zXPO1o>0
 !s100 TlaVUIX5OMA]L8N[H[`@81
 R8
 32
-R26
+R42
 !i10b 1
-R27
-R28
-R29
+R43
+R44
+R45
+!i113 1
+R13
+R14
+Esum8bits_tb
+Z47 w1759828848
+R1
+R2
+R3
+R4
+R5
+Z48 8/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd
+Z49 F/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd
+l0
+L11
+VVo]Xe2RA^O8Q`=8hmA;Db0
+!s100 9zHXd236N7zPPcA2Z5i3<1
+R8
+32
+Z50 !s110 1759828922
+!i10b 1
+Z51 !s108 1759828922.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd|
+Z53 !s107 /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd|
+!i113 1
+R13
+R14
+Atest
+R46
+R1
+R2
+R3
+R4
+DEx4 work 11 sum8bits_tb 0 22 Vo]Xe2RA^O8Q`=8hmA;Db0
+l22
+L14
+VXP8:OjDDFe7kZ?znmTRL[1
+!s100 :EOQHD4zWSo;MEgkP[S[?1
+R8
+32
+R50
+!i10b 1
+R51
+R52
+R53
 !i113 1
 R13
 R14

@@ -21,12 +21,12 @@ end entity;
 architecture rtl of sum8bits is
     signal S_aux: std_logic_vector(8 downto 0);
 begin
+	-- VHDL primero resuelve y luego asigna. Es por eso que es necesario concatenar un bit a A y B, caso contrario resolveria en 8 bits, perderia el 9no y asignaria
     S_aux <= ('0' & A) + ('0' & B) + C_in;
     C_out <= S_aux(8);
     S <= S_aux(7 downto 0);
 
-	-- Esta linea es confusa. Cuando A = b'01111111' y B = b'000000001', entonces S = b'10000000'. Por lo que A(7) = B(7) y A(7) != S(7) 
-	-- Sin embargo no es un overflow
+	-- Recordar que un overflow es util en complemento a 2
     OV <= '1' when (A(7) = B(7)) and (A(7) /= S(7))
 	else '0';
     

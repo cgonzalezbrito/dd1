@@ -1,4 +1,15 @@
-/home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd
+/home/cgonzalezbrito/Workspace/dd1/A5/BT1/modelsim/rest6bits_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A5/BT1/modelsim/rest6bits_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rest6bits_tb
+-- Compiling architecture test of rest6bits_tb
+-- Loading entity rest6bits
+
+} {} {}} /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/inc_3.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -8,7 +19,28 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity inc_3
 -- Compiling architecture rtl of inc_3
 
-} {} {}} /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A5/BT1/hdl/rest6bits.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A5/BT1/hdl/rest6bits.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rest6bits
+-- Compiling architecture rtl of rest6bits
+
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A5/BT1/modelsim/rest4bits_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A5/BT1/modelsim/rest4bits_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rest4bits_tb
+-- Compiling architecture test of rest4bits_tb
+-- Loading entity rest4bits
+
+} {} {}} ./modelsim/sum8bits_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A5/BT1/modelsim/sum8bits_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -29,6 +61,27 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity sum4bits_tb
 -- Compiling architecture test of sum4bits_tb
 -- Loading entity sum4bits
+
+} {} {}} /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbriito/Workspace/DD1/A5/BT1/modelsim/sum8bits_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sum8bits_tb
+-- Compiling architecture test of sum8bits_tb
+-- Loading entity sum8bits
+
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A5/BT1/hdl/rest4b.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A5/BT1/hdl/rest4b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rest4bits
+-- Compiling architecture rtl of rest4bits
 
 } {} {}} /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbriito/Workspace/DD1/A5/BT1/hdl/sum4bits.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

@@ -30,8 +30,18 @@ architecture rtl of int_thunderbird is
   type t_estado is (inicial, izda_1, izda_2, izda_3, dcha_1, dcha_2, dcha_3, emer);
   signal estado: t_estado := inicial;
 
+  signal timer: std_logic;
+  signal timer_count: std_logic_vector(21 downto 0);
+
 begin
   interLR <= L & R; -- para utilizarla en la sentencia case
+
+  process(clk, Rst_n)
+  begin
+    if Rst_n = '0' then
+      timer_count <= (others => '0');
+    elsif clk'event and clk = '1' then
+      timer_count 
 
   process(clk, Rst_n)
   begin

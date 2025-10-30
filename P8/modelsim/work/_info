@@ -9,79 +9,83 @@ z2
 cModel Technology
 d/home/cgonzalezbriito/Workspace/DD1/A5/BT1
 Eint_thunderbird
-Z0 w1761755510
-Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z3 d/home/cgonzalezbriito/Workspace/DD1/P8/modelsim
-Z4 8/home/cgonzalezbriito/Workspace/DD1/P8/hdl/int_thunderbird.vhd
-Z5 F/home/cgonzalezbriito/Workspace/DD1/P8/hdl/int_thunderbird.vhd
+Z0 w1761820912
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 d/home/cgonzalezbrito/Workspace/dd1/P8/modelsim
+Z6 8/home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd
+Z7 F/home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd
 l0
-L8
-VLBIRKd1N>h1d9>NZa^Aj41
-!s100 mgoOB2@W:>8Nh=miP7i2S2
-Z6 OV;C;10.5b;63
+L9
+VaP;]M0ehddnmLkKl9]O8I0
+!s100 UK>2@6m8zaCeh`DAei6SJ2
+Z8 OV;C;10.5b;63
 32
-Z7 !s110 1761755516
+Z9 !s110 1761820924
 !i10b 1
-Z8 !s108 1761755515.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/P8/hdl/int_thunderbird.vhd|
-Z10 !s107 /home/cgonzalezbriito/Workspace/DD1/P8/hdl/int_thunderbird.vhd|
+Z10 !s108 1761820924.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd|
+Z12 !s107 /home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
 Artl
 R1
 R2
-Z13 DEx4 work 15 int_thunderbird 0 22 LBIRKd1N>h1d9>NZa^Aj41
-l33
-L26
-V5KDB4Y1R?gf43=_h52K4V3
-!s100 `[Zk9BcjINEF>^O34@>OT1
-R6
-32
-R7
-!i10b 1
+R3
+R4
+Z15 DEx4 work 15 int_thunderbird 0 22 aP;]M0ehddnmLkKl9]O8I0
+l37
+L27
+VCTFmH<g3Adff=_ULfaIoY1
+!s100 1PYkR_z>RF9^N?8EG0>E;2
 R8
+32
 R9
+!i10b 1
 R10
-!i113 1
 R11
 R12
+!i113 1
+R13
+R14
 Etb_int_thunderbird
-Z14 w1761755311
-Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z16 w1761821616
 R1
 R2
 R3
-Z17 8/home/cgonzalezbriito/Workspace/DD1/P8/test/tb_int_thunderbird.vhd
-Z18 F/home/cgonzalezbriito/Workspace/DD1/P8/test/tb_int_thunderbird.vhd
+R4
+R5
+Z17 8/home/cgonzalezbrito/Workspace/dd1/P8/test/tb_int_thunderbird.vhd
+Z18 F/home/cgonzalezbrito/Workspace/dd1/P8/test/tb_int_thunderbird.vhd
 l0
 L5
 Vag<YlcUBDF4H5PLC9I^<13
 !s100 elb[_C3<T7GSV]`A5BLn?2
-R6
+R8
 32
-Z19 !s110 1761755315
+Z19 !s110 1761821627
 !i10b 1
-Z20 !s108 1761755315.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbriito/Workspace/DD1/P8/test/tb_int_thunderbird.vhd|
-Z22 !s107 /home/cgonzalezbriito/Workspace/DD1/P8/test/tb_int_thunderbird.vhd|
+Z20 !s108 1761821627.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P8/test/tb_int_thunderbird.vhd|
+Z22 !s107 /home/cgonzalezbrito/Workspace/dd1/P8/test/tb_int_thunderbird.vhd|
 !i113 1
-R11
-R12
-Atest
 R13
+R14
+Atest
 R15
-R16
 R1
 R2
-DEx4 work 18 tb_int_thunderbird 0 22 ag<YlcUBDF4H5PLC9I^<13
+R3
+R4
+Z23 DEx4 work 18 tb_int_thunderbird 0 22 ag<YlcUBDF4H5PLC9I^<13
 l23
 L8
-V=OFR<UMi^0WV5f=3CSCg>3
-!s100 IU_zmGH2El6ZMfc3ET6Lo1
-R6
+V^>J]MW3hidA?ZZ9]51`;i3
+!s100 VB[=mg:YDeV>eaQY:d^DS0
+R8
 32
 R19
 !i10b 1
@@ -89,5 +93,5 @@ R20
 R21
 R22
 !i113 1
-R11
-R12
+R13
+R14

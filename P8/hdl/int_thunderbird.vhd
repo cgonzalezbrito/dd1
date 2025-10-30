@@ -4,6 +4,7 @@
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
 
 entity int_thunderbird is
 port(
@@ -30,7 +31,7 @@ architecture rtl of int_thunderbird is
   type t_estado is (inicial, izda_1, izda_2, izda_3, dcha_1, dcha_2, dcha_3, emer);
   signal estado: t_estado := inicial;
 
-  signal timer: std_logic;
+  signal timer_tic: std_logic;
   signal timer_count: std_logic_vector(21 downto 0);
 
 begin
@@ -41,7 +42,15 @@ begin
     if Rst_n = '0' then
       timer_count <= (others => '0');
     elsif clk'event and clk = '1' then
-      timer_count 
+      if timer_count = 3600000 then
+        timer_count <= (others => '0');
+        timer_tic <= '1';
+      else
+        timer_count <= timer_count + 1;
+        timer_tic <= '0';
+      end if;
+    end if;
+  end process;
 
   process(clk, Rst_n)
   begin
@@ -49,56 +58,57 @@ begin
       estado <= inicial;
     
     elsif clk'event and clk = '1' then
+      if timer_tic = '1' then
+        case estado is
 
-      case estado is
+          when inicial => 
+            if interLR = "01" then
+              estado <= dcha_1;
+            elsif interLR = "10" then
+              estado <= izda_1;
+            elsif interLR = "11" then
+              estado <= emer;
+            end if;
 
-        when inicial => 
-          if interLR = "01" then
-            estado <= dcha_1;
-          elsif interLR = "10" then
-            estado <= izda_1;
-          elsif interLR = "11" then
-            estado <= emer;
-          end if;
+          when izda_1 => 
+            if interLR = "10" then
+              estado <= izda_2;
+            else
+              estado <= inicial;
+            end if;
 
-        when izda_1 => 
-          if interLR = "10" then
-            estado <= izda_2;
-          else
-            estado <= inicial;
-          end if;
+          when izda_2 => 
+            if interLR = "10" then
+              estado <= izda_3;
+            else
+              estado <= inicial;
+            end if;
 
-        when izda_2 => 
-          if interLR = "10" then
-            estado <= izda_3;
-          else
-            estado <= inicial;
-          end if;
+          when izda_3 =>
+            estado <= inicial; 
 
-        when izda_3 =>
-          estado <= inicial; 
+          when dcha_1 => 
+            if interLR = "01" then
+              estado <= dcha_2;
+            else
+              estado <= inicial;
+            end if;
 
-        when dcha_1 => 
-          if interLR = "01" then
-            estado <= dcha_2;
-          else
-            estado <= inicial;
-          end if;
+          when dcha_2 => 
+            if interLR = "01" then
+              estado <= dcha_3;
+            else
+              estado <= inicial;
+            end if;
 
-        when dcha_2 => 
-          if interLR = "01" then
-            estado <= dcha_3;
-          else
-            estado <= inicial;
-          end if;
+          when dcha_3 =>
+            estado <= inicial; 
 
-        when dcha_3 =>
-          estado <= inicial; 
+          when emer =>
+            estado <= inicial; 
 
-        when emer =>
-          estado <= inicial; 
-
-      end case;
+        end case;
+      end if;
     end if;
   end process;
 

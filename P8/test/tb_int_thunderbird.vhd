@@ -58,41 +58,65 @@ begin
    -- a izda_1
    L <= '1';
    R <= '0';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
    wait until clk'event and clk = '1'; 
    
    -- a izda_2
    L <= '1';
    R <= '0';
    wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
    -- a izda_3
    L <= '1';
    R <= '0';
    wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
    
    -- a inicio
    L <= '1';
    R <= '0';
+   wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
    wait until clk'event and clk = '1'; 
    
    -- a dcha_1
    L <= '0';
    R <= '1';
    wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
    -- a dcha_2
    L <= '0';
    R <= '1';
+   wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
    wait until clk'event and clk = '1'; 
 
    -- a dcha_3
    L <= '0';
    R <= '1';
    wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
    -- a inicio
    L <= '0';
    R <= '1';
+   wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
    wait until clk'event and clk = '1'; 
 
    -- emer
@@ -100,11 +124,21 @@ begin
    L <= '1';
    R <= '1';
    wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
    L <= '1';
    R <= '1';
    wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
+   wait until clk'event and clk = '1'; 
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1';
+   wait until clk'event and clk = '1'; 
 
    wait for 5*T_CLK;
    assert false

@@ -1,1 +1,39 @@
+/home/cgonzalezbrito/Workspace/dd1/A7/hdl/mayor5.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A7/hdl/mayor5.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity abs_gt5_4b
+-- Compiling architecture rtl of abs_gt5_4b
 
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A7/test/tb_mayor5.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A7/test/tb_mayor5.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity tb_abs_gt5_4b
+-- Compiling architecture test of tb_abs_gt5_4b
+-- Loading entity abs_gt5_4b
+
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A7/hdl/nones.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A7/hdl/nones.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity calc_n_ones
+-- Compiling architecture rtl of calc_n_ones
+
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/A7/test/tb_nones.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/A7/test/tb_nones.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_calc_n_ones
+-- Compiling architecture test of tb_calc_n_ones
+-- Loading entity calc_n_ones
+
+} {} {}}

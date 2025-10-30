@@ -1,13 +1,23 @@
 |cont_bcd_7seg_habcp
-an_rst => ~NO_FANOUT~
-clk => ~NO_FANOUT~
-pulso_hab => ~NO_FANOUT~
-disp7seg[0] << <GND>
-disp7seg[1] << <GND>
-disp7seg[2] << <GND>
-disp7seg[3] << <GND>
-disp7seg[4] << <GND>
-disp7seg[5] << <GND>
-disp7seg[6] << <GND>
+an_rst => count[0].ACLR
+an_rst => count[1].ACLR
+an_rst => count[2].ACLR
+an_rst => count[3].ACLR
+an_rst => c_in.OUTPUTSELECT
+an_rst => q.ACLR
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => q.CLK
+pulso_hab => q.DATAIN
+pulso_hab => c_in.IN1
+disp7seg[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+disp7seg[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/cgonzalezbrito/Workspace/dd1/A7/modelsim
+Econt_bcd_7seg_habcp
+Z0 w1761210861
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 d/home/cgonzalezbrito/Workspace/dd1/P7/Modelsim
+Z6 8/home/cgonzalezbrito/Workspace/dd1/P7/hdl/cont_bcd_7seg_habcp.vhd
+Z7 F/home/cgonzalezbrito/Workspace/dd1/P7/hdl/cont_bcd_7seg_habcp.vhd
+l0
+L5
+V8h;]BLBXAb=@]k=b?Z5hE0
+!s100 <9?DY82m@k6zQo>?IE=CE1
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1761210865
+!i10b 1
+Z10 !s108 1761210865.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P7/hdl/cont_bcd_7seg_habcp.vhd|
+Z12 !s107 /home/cgonzalezbrito/Workspace/dd1/P7/hdl/cont_bcd_7seg_habcp.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+DEx4 work 19 cont_bcd_7seg_habcp 0 22 8h;]BLBXAb=@]k=b?Z5hE0
+l20
+L14
+V^kmPj>`gBh9A5IRM?;Qj50
+!s100 Ibh?3ieLFLjddX[cVLB1J0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Etb_cont_bcd_7seg_habcp
+Z15 w1761211217
+R1
+R2
+R3
+R4
+R5
+Z16 8/home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd
+Z17 F/home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd
+l0
+L5
+V7R`Z_6;eh5`jEOjG^B8AC1
+!s100 5X4mejmCZ=JR@9JlaY[@a0
+R8
+32
+Z18 !s110 1761211221
+!i10b 1
+Z19 !s108 1761211221.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd|
+Z21 !s107 /home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd|
+!i113 1
+R13
+R14
+Asim
+R1
+R2
+R3
+R4
+Z22 DEx4 work 22 tb_cont_bcd_7seg_habcp 0 22 7R`Z_6;eh5`jEOjG^B8AC1
+l41
+L8
+VRzb[[>]6M1dK:E3@XiNIh3
+!s100 MT;P_FzT[UlSTaZDPkzbL2
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14

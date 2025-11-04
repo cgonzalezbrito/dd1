@@ -66,9 +66,9 @@ V7R`Z_6;eh5`jEOjG^B8AC1
 !s100 5X4mejmCZ=JR@9JlaY[@a0
 R8
 32
-Z18 !s110 1761211221
+Z18 !s110 1762250706
 !i10b 1
-Z19 !s108 1761211221.000000
+Z19 !s108 1762250706.000000
 Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd|
 Z21 !s107 /home/cgonzalezbrito/Workspace/dd1/P7/test/tb_cont_bcd_7seg_habcp.vhd|
 !i113 1
@@ -82,8 +82,8 @@ R4
 Z22 DEx4 work 22 tb_cont_bcd_7seg_habcp 0 22 7R`Z_6;eh5`jEOjG^B8AC1
 l41
 L8
-VRzb[[>]6M1dK:E3@XiNIh3
-!s100 MT;P_FzT[UlSTaZDPkzbL2
+Z23 VRzb[[>]6M1dK:E3@XiNIh3
+Z24 !s100 MT;P_FzT[UlSTaZDPkzbL2
 R8
 32
 R18

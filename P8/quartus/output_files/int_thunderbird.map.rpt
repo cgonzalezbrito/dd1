@@ -1,5 +1,5 @@
-Analysis & Synthesis report for int_thunderbird
-Thu Oct 30 12:43:06 2025
+Analysis & Elaboration report for int_thunderbird
+Tue Nov  4 10:59:27 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -7,18 +7,10 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Source Files Read
-  6. Analysis & Synthesis Resource Usage Summary
-  7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |int_thunderbird|estado
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
 
 
 
@@ -43,29 +35,45 @@ on the Quartus Prime software download page.
 
 
 +--------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                         ;
+; Analysis & Elaboration Summary                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 30 12:43:06 2025           ;
+; Analysis & Elaboration Status      ; Successful - Tue Nov  4 10:59:27 2025           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; int_thunderbird                                 ;
 ; Top-level Entity Name              ; int_thunderbird                                 ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 58                                              ;
-;     Total combinational functions  ; 58                                              ;
-;     Dedicated logic registers      ; 31                                              ;
-; Total registers                    ; 31                                              ;
-; Total pins                         ; 10                                              ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total PLLs                         ; 0                                               ;
-; UFM blocks                         ; 0                                               ;
-; ADC blocks                         ; 0                                               ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
+; UFM blocks                         ; N/A until Partition Merge                       ;
+; ADC blocks                         ; N/A until Partition Merge                       ;
 +------------------------------------+-------------------------------------------------+
 
 
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
 +------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                              ;
+; Analysis & Elaboration Settings                                                                            ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
@@ -150,175 +158,24 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 16          ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 16          ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-16        ;   0.0%      ;
-+----------------------------+-------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                  ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
-; ../hdl/int_thunderbird.vhd       ; yes             ; User VHDL File  ; /home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
-
-
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 58        ;
-;                                             ;           ;
-; Total combinational functions               ; 58        ;
-; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 12        ;
-;     -- 3 input functions                    ; 7         ;
-;     -- <=2 input functions                  ; 39        ;
-;                                             ;           ;
-; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 37        ;
-;     -- arithmetic mode                      ; 21        ;
-;                                             ;           ;
-; Total registers                             ; 31        ;
-;     -- Dedicated logic registers            ; 31        ;
-;     -- I/O registers                        ; 0         ;
-;                                             ;           ;
-; I/O pins                                    ; 10        ;
-;                                             ;           ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 31        ;
-; Total fan-out                               ; 263       ;
-; Average fan-out                             ; 2.41      ;
-+---------------------------------------------+-----------+
-
-
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-----------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name     ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-----------------+--------------+
-; |int_thunderbird           ; 58 (58)             ; 31 (31)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 10   ; 0            ; 0          ; |int_thunderbird    ; int_thunderbird ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-----------------+--------------+
-Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |int_thunderbird|estado                                                                                                       ;
-+----------------+-------------+---------------+---------------+---------------+---------------+---------------+---------------+----------------+
-; Name           ; estado.emer ; estado.dcha_3 ; estado.dcha_2 ; estado.dcha_1 ; estado.izda_3 ; estado.izda_2 ; estado.izda_1 ; estado.inicial ;
-+----------------+-------------+---------------+---------------+---------------+---------------+---------------+---------------+----------------+
-; estado.inicial ; 0           ; 0             ; 0             ; 0             ; 0             ; 0             ; 0             ; 0              ;
-; estado.izda_1  ; 0           ; 0             ; 0             ; 0             ; 0             ; 0             ; 1             ; 1              ;
-; estado.izda_2  ; 0           ; 0             ; 0             ; 0             ; 0             ; 1             ; 0             ; 1              ;
-; estado.izda_3  ; 0           ; 0             ; 0             ; 0             ; 1             ; 0             ; 0             ; 1              ;
-; estado.dcha_1  ; 0           ; 0             ; 0             ; 1             ; 0             ; 0             ; 0             ; 1              ;
-; estado.dcha_2  ; 0           ; 0             ; 1             ; 0             ; 0             ; 0             ; 0             ; 1              ;
-; estado.dcha_3  ; 0           ; 1             ; 0             ; 0             ; 0             ; 0             ; 0             ; 1              ;
-; estado.emer    ; 1           ; 0             ; 0             ; 0             ; 0             ; 0             ; 0             ; 1              ;
-+----------------+-------------+---------------+---------------+---------------+---------------+---------------+---------------+----------------+
-
-
-+------------------------------------------------------+
-; General Register Statistics                          ;
-+----------------------------------------------+-------+
-; Statistic                                    ; Value ;
-+----------------------------------------------+-------+
-; Total registers                              ; 31    ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 30    ;
-; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 9     ;
-; Number of registers using Preset             ; 0     ;
-+----------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |int_thunderbird|luces     ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 9 LEs                ; 3 LEs                  ; No         ; |int_thunderbird|estado    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-
-
-+-----------------------------------------------------+
-; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; boundary_port         ; 10                          ;
-; cycloneiii_ff         ; 31                          ;
-;     CLR               ; 22                          ;
-;     ENA               ; 1                           ;
-;     ENA CLR           ; 8                           ;
-; cycloneiii_lcell_comb ; 58                          ;
-;     arith             ; 21                          ;
-;         2 data inputs ; 21                          ;
-;     normal            ; 37                          ;
-;         1 data inputs ; 1                           ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 7                           ;
-;         4 data inputs ; 12                          ;
-;                       ;                             ;
-; Max LUT depth         ; 4.10                        ;
-; Average LUT depth     ; 3.03                        ;
-+-----------------------+-----------------------------+
-
-
-+-------------------------------+
-; Elapsed Time Per Partition    ;
-+----------------+--------------+
-; Partition Name ; Elapsed Time ;
-+----------------+--------------+
-; Top            ; 00:00:00     ;
-+----------------+--------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
+Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Thu Oct 30 12:42:59 2025
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off int_thunderbird -c int_thunderbird
+    Info: Processing started: Tue Nov  4 10:59:22 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off int_thunderbird -c int_thunderbird --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file /home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd
     Info (12022): Found design unit 1: int_thunderbird-rtl File: /home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd Line: 27
     Info (12023): Found entity 1: int_thunderbird File: /home/cgonzalezbrito/Workspace/dd1/P8/hdl/int_thunderbird.vhd Line: 9
 Info (12127): Elaborating entity "int_thunderbird" for the top level hierarchy
-Info (286030): Timing-Driven Synthesis is running
-Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 71 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 6 output pins
-    Info (21061): Implemented 61 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 709 megabytes
-    Info: Processing ended: Thu Oct 30 12:43:06 2025
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:18
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 937 megabytes
+    Info: Processing ended: Tue Nov  4 10:59:27 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:16
 
 

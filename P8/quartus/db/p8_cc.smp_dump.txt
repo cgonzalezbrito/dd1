@@ -1,0 +1,7 @@
+
+State Machine - |p8_cc|estado
+Name estado.Mi estado.Md estado.Pd estado.Pi 
+estado.Pi 0 0 0 0 
+estado.Pd 0 0 1 1 
+estado.Md 0 1 0 1 
+estado.Mi 1 0 0 1 

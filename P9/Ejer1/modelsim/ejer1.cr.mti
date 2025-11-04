@@ -1,0 +1,27 @@
+/home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/hdl/NA_4_conf.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/hdl/NA_4_conf.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity NA_4_conf
+-- Compiling architecture rtl of NA_4_conf
+
+} {} {}} /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_NA_4_conf
+-- Compiling architecture test of tb_NA_4_conf
+-- Loading entity NA_4_conf
+** Error: /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd(30): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd(30): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.INTEGER' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (numeric to array).
+** Error: /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd(35): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+** Error: /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd(35): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.INTEGER' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (numeric to array).
+** Error: /home/cgonzalezbrito/Workspace/dd1/P9/Ejer1/test/tb_NA_4_conf.vhd(45): VHDL Compiler exiting
+
+} {11.0 16.0} {}}
